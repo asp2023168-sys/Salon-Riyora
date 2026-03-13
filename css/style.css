@@ -1,0 +1,112 @@
+/* Index Page Specific Styles - Salon Riyora */
+
+.header-vignette {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle, transparent 20%, rgba(0, 0, 0, 0.75) 100%);
+    /* Stronger vignette for clarity */
+    z-index: 1;
+}
+
+.hero-editorial-card {
+    background: rgba(0, 0, 0, 0.65);
+    /* Darkened for better text clarity */
+    padding: 3.5rem;
+    width: 100%;
+    max-width: 850px;
+    z-index: 10;
+    position: relative;
+    border: 1px solid rgba(197, 160, 89, 0.3);
+    /* Added subtle gold border */
+    backdrop-filter: blur(8px);
+    /* Glassmorphism for depth */
+}
+
+.hero-tagline {
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    font-size: 0.9rem;
+    color: var(--white);
+    margin-bottom: 20px;
+}
+
+.hero-display-title {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(3.5rem, 10vw, 6.5rem);
+    color: var(--white);
+    font-weight: 700;
+    line-height: 1;
+    text-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.hero-divider {
+    width: 80px;
+    height: 2px;
+    background: var(--gold);
+    margin: 30px auto;
+}
+
+.hero-description {
+    font-size: 1.25rem;
+    max-width: 600px;
+    color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 0;
+}
+
+.carousel-arrow {
+    width: 60px;
+    height: 60px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--white);
+    font-size: 1.5rem;
+    transition: all 0.3s ease;
+}
+
+.carousel-arrow:hover {
+    background: var(--gold);
+    border-color: var(--gold);
+}
+
+.ken-burns {
+    animation: editorialZoom 20s ease infinite alternate;
+}
+
+@keyframes editorialZoom {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.05);
+    }
+}
+
+/* Specific Positions for User Bridal Collage */
+.hero-slide-1 {
+    object-position: 0% 50%;
+    /* Focus on leftmost bridal look */
+}
+
+.hero-slide-2 {
+    object-position: 50% 50%;
+    /* Focus on center bridal looks */
+}
+
+.hero-slide-3 {
+    object-position: 100% 50%;
+    /* Focus on rightmost bridal look */
+}
+
+/* Ensure captions only show for active slide to prevent overlap */
+.carousel-item:not(.active) .carousel-caption {
+    display: none !important;
+}
