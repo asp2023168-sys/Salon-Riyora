@@ -18,10 +18,10 @@
 <body>
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top">
         <div class="container">
             <a class="navbar-brand d-flex align-items-center" href="index.html">
-                <img src="C:\Users\sajan\OneDrive\Desktop\web site\images\logo.jpg" alt="Salon Riyora Logo" height="50" class="me-2">
+                <img src="images/logo.jpg" alt="Salon Riyora Logo" height="50" class="me-2">
                 <span>SALON RIYORA</span>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
@@ -39,64 +39,73 @@
         </div>
     </nav>
 
-    <!-- Hero Carousel -->
-    <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
-        <div class="carousel-inner">
-            <!-- Slide 1: Bridal -->
-            <div class="carousel-item active" style="height: 100vh;">
-                <div class="hero-overlay"></div>
-                <img src="https://images.unsplash.com/photo-1594463309539-71708849646b?auto=format&fit=crop&w=1600&q=80"
-                    class="d-block w-100 h-100 object-fit-cover" alt="Bridal Excellence">
-                <div class="carousel-caption d-flex align-items-center h-100">
-                    <div class="container hero-content text-start">
-                        <h1 class="hero-title">Salon Riyora</h1>
-                        <p class="hero-subtitle">The Harmony of Aura & Mirror</p>
-                        <p class="lead text-white-50 mb-5 text-uppercase" style="letter-spacing: 5px;">Exquisite Bridal
-                            Transformation</p>
-                        <div class="d-flex gap-4">
-                            <a href="booking.html" class="btn btn-gold px-5">Reserve Now</a>
-                            <a href="services.html" class="btn btn-outline-light px-5 py-3 border-2 rounded-0">Our
-                                Gallery</a>
+    <!-- Editorial Luxury Hero Selection -->
+    <header class="hero-section overflow-hidden">
+        <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="7000">
+            <div class="carousel-inner">
+                <!-- Slide 1: Bridal Excellence -->
+                <div class="carousel-item active" style="height: 100vh;">
+                    <div class="header-vignette"></div>
+                    <img src="images/user_hero_bridal.jpg"
+                        class="d-block w-100 h-100 object-fit-cover hero-slide-1 ken-burns" alt="Bridal Excellence">
+                    <div class="carousel-caption d-flex align-items-center justify-content-center h-100 pb-0">
+                        <div class="hero-editorial-card text-center">
+                            <p class="hero-tagline">Signature Bridal Artistry</p>
+                            <h1 class="hero-display-title">Salon Riyora</h1>
+                            <div class="hero-divider"></div>
+                            <p class="hero-description mx-auto">Enhancing your unique Aura. Reflections of pure
+                                transformation and boutique beauty.</p>
+                            <div class="hero-cta-group mt-4">
+                                <a href="booking.html" class="btn btn-gold btn-lg rounded-0 px-5">Reserve Experience</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 2: Exquisite Elegance -->
+                <div class="carousel-item" style="height: 100vh;">
+                    <div class="header-vignette"></div>
+                    <img src="images/user_hero_bridal.jpg"
+                        class="d-block w-100 h-100 object-fit-cover hero-slide-2 ken-burns" alt="Elegant Bridal Look">
+                    <div class="carousel-caption d-flex align-items-center justify-content-center h-100 pb-0">
+                        <div class="hero-editorial-card text-center">
+                            <p class="hero-tagline">Exquisite Elegance</p>
+                            <h2 class="hero-display-title">Your Aura</h2>
+                            <div class="hero-divider"></div>
+                            <p class="hero-description mx-auto">Discover the perfect harmony between your inner glow and
+                                outer reflection.</p>
+                            <a href="services.html" class="btn btn-gold btn-lg rounded-0 px-5 mt-4">Explore Services</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 3: Pure Radiance -->
+                <div class="carousel-item" style="height: 100vh;">
+                    <div class="header-vignette"></div>
+                    <img src="images/user_hero_bridal.jpg"
+                        class="d-block w-100 h-100 object-fit-cover hero-slide-3 ken-burns" alt="Luxury Bridal Glow">
+                    <div class="carousel-caption d-flex align-items-center justify-content-center h-100 pb-0">
+                        <div class="hero-editorial-card text-center">
+                            <p class="hero-tagline">Pure Radiance</p>
+                            <h2 class="hero-display-title">The Mirror</h2>
+                            <div class="hero-divider"></div>
+                            <p class="hero-description mx-auto">Indulge in our signature transformations designed to
+                                reveal your natural radiance.</p>
+                            <a href="booking.html" class="btn btn-gold btn-lg rounded-0 px-5 mt-4">Book Now</a>
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- Slide 2: Hair -->
-            <div class="carousel-item" style="height: 100vh;">
-                <div class="hero-overlay"></div>
-                <img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&w=1600&q=80"
-                    class="d-block w-100 h-100 object-fit-cover" alt="Luxury Hair Styling">
-                <div class="carousel-caption d-flex align-items-center h-100">
-                    <div class="container hero-content text-center">
-                        <h2 class="display-3 text-gold mb-3">Reflecting Your Soul</h2>
-                        <p class="lead text-white-50 mb-5">Sophisticated Hair Styling & Luxury Coloring</p>
-                        <a href="services.html" class="btn btn-gold btn-lg rounded-0 px-5 mt-4">Discover More</a>
-                    </div>
-                </div>
-            </div>
-            <!-- Slide 3: Skin/Glow -->
-            <div class="carousel-item" style="height: 100vh;">
-                <div class="hero-overlay"></div>
-                <img src="https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?auto=format&fit=crop&w=1600&q=80"
-                    class="d-block w-100 h-100 object-fit-cover" alt="Radiant Glow">
-                <div class="carousel-caption d-flex align-items-center h-100">
-                    <div class="container hero-content text-end">
-                        <h2 class="display-3 text-gold mb-3">Your Aura, Refined</h2>
-                        <p class="lead text-white-50 mb-5">Premium Skin Care & Rejuvenating Facials</p>
-                        <a href="booking.html" class="btn btn-gold btn-lg rounded-0 px-5 mt-4">Book Your Glow</a>
-                    </div>
-                </div>
-            </div>
+
+            <!-- Sleek Dynamic Controls -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+                <span class="carousel-arrow"><i class="fas fa-long-arrow-alt-left"></i></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+                <span class="carousel-arrow"><i class="fas fa-long-arrow-alt-right"></i></span>
+            </button>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-    </div>
+    </header>
 
     <!-- About Section - Beige Contrast -->
     <section class="py-5 bg-beige-section">
@@ -108,7 +117,6 @@
                             alt="Salon Riyora Work" class="img-fluid shadow-lg">
                         <div
                             class="position-absolute bottom-0 start-0 bg-gold p-4 translate-middle-x d-none d-lg-block">
-                            <h4 class="text-black mb-0">Since 2010</h4>
                         </div>
                     </div>
                 </div>
@@ -159,9 +167,9 @@
                         </div>
                         <div class="p-4 text-center">
                             <h3>Hair Styling</h3>
-                            <p class="text-white-50">Expert cuts, colors, and styling for every occasion.</p>
-                            <a href="services.html" class="btn btn-link text-gold text-decoration-none fw-bold">View
-                                Detail</a>
+                            <p class="text-white-50">A perfect hairstyle makes every day a good hair day.</p>
+                            <a href="booking.html?service=hair"
+                                class="btn btn-link text-gold text-decoration-none fw-bold">Book Now</a>
                         </div>
                     </div>
                 </div>
@@ -169,14 +177,13 @@
                 <div class="col-md-4 reveal" style="transition-delay: 0.2s;">
                     <div class="service-card">
                         <div class="card-img-wrapper">
-                            <img src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=800&q=80"
-                                alt="Bridal Makeup">
+                            <img src="images/Bridalmakeup.jpg" alt="Bridal Makeup">
                         </div>
                         <div class="p-4 text-center">
                             <h3>Bridal Makeup</h3>
                             <p class="text-white-50">Complete bridal glow-ups for your special day.</p>
-                            <a href="services.html" class="btn btn-link text-gold text-decoration-none fw-bold">View
-                                Detail</a>
+                            <a href="booking.html?service=bridal"
+                                class="btn btn-link text-gold text-decoration-none fw-bold">Book Now</a>
                         </div>
                     </div>
                 </div>
@@ -184,18 +191,20 @@
                 <div class="col-md-4 reveal" style="transition-delay: 0.4s;">
                     <div class="service-card">
                         <div class="card-img-wrapper">
-                            <img src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=800&q=80"
-                                alt="Skin Care">
+                            <img src="images/Skin Treatment.png" alt="Skin Care">
                         </div>
                         <div class="p-4 text-center">
                             <h3>Skin Care</h3>
                             <p class="text-white-50">Advanced treatments for a radiant and healthy glow.</p>
-                            <a href="services.html" class="btn btn-link text-gold text-decoration-none fw-bold">View
-                                Detail</a>
+                            <a href="booking.html?service=skin"
+                                class="btn btn-link text-gold text-decoration-none fw-bold">Book Now</a>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
+        </div>
+        </div>
         </div>
     </section>
 
@@ -210,45 +219,45 @@
     </section>
 
     <!-- Footer -->
-    <footer class="bg-black text-white">
+    <footer class="pt-5 pb-4">
         <div class="container">
             <div class="row gy-4">
                 <div class="col-lg-4">
                     <a class="navbar-brand d-flex align-items-center mb-3" href="index.html">
-                        <img src="images/logo.png" alt="Logo" height="40" class="me-2">
+                        <img src="images/logo.jpg" alt="Logo" height="40" class="me-2">
                         <span class="fs-4">SALON RIYORA</span>
                     </a>
-                    <p class="text-white-50">Enhancing your <strong>Aura</strong>. Reflecting your
-                        <strong>Mirror</strong>. Providing luxury beauty services for the contemporary woman.</p>
+                    <p class="text-secondary">Enhancing your <strong>Aura</strong>. Reflecting your
+                        <strong>Mirror</strong>. Providing luxury beauty services for the contemporary woman.
+                    </p>
                     <div class="d-flex mt-4">
                         <a href="#" class="footer-social-link text-gold"><i class="fab fa-facebook-f"></i></a>
                         <a href="#" class="footer-social-link text-gold"><i class="fab fa-instagram"></i></a>
                         <a href="#" class="footer-social-link text-gold"><i class="fab fa-tiktok"></i></a>
                     </div>
                 </div>
-                <div class="col-lg-2 ms-lg-auto">
-                    <h4 class="mb-4">Quick Links</h4>
-                    <ul class="list-unstyled">
-                        <li class="mb-2"><a href="index.html" class="text-white-50 text-decoration-none">Home</a></li>
-                        <li class="mb-2"><a href="services.html" class="text-white-50 text-decoration-none">Services</a>
-                        </li>
-                        <li class="mb-2"><a href="booking.html" class="text-white-50 text-decoration-none">Booking</a>
-                        </li>
-                        <li class="mb-2"><a href="contact.html" class="text-white-50 text-decoration-none">Contact</a>
-                        </li>
+                <div class="col-lg-3">
+                    <h5 class="text-gold mb-3">Quick Links</h5>
+                    <ul class="list-unstyled footer-links">
+                        <li><a href="index.html" class="text-secondary text-decoration-none">Home</a></li>
+                        <li><a href="services.html" class="text-secondary text-decoration-none">Services</a></li>
+                        <li><a href="booking.html" class="text-secondary text-decoration-none">Booking</a></li>
+                        <li><a href="contact.html" class="text-secondary text-decoration-none">Contact Us</a></li>
                     </ul>
                 </div>
                 <div class="col-lg-4">
-                    <h4 class="mb-4">Contact Info</h4>
-                    <p class="text-white-50 mb-2"><i class="fas fa-map-marker-alt text-gold me-2"></i> 123 Luxury Lane,
-                        Colombo, Sri Lanka</p>
-                    <p class="text-white-50 mb-2"><i class="fas fa-phone text-gold me-2"></i> +94 11 234 5678</p>
-                    <p class="text-white-50 mb-0"><i class="fas fa-envelope text-gold me-2"></i> info@salonriyora.com
-                    </p>
+                    <h5 class="text-gold mb-3">Contact Info</h5>
+                    <ul class="list-unstyled footer-contact text-secondary">
+                        <li class="mb-2"><i class="fas fa-map-marker-alt me-2 text-gold"></i> N/13/3, Demada,
+                            Daraniyagala</li>
+                        <li class="mb-2"><i class="fas fa-phone me-2 text-gold"></i> +94 74 060 5752</li>
+                        <li class="mb-2"><i class="fas fa-envelope me-2 text-gold"></i> info@salonriyora.com</li>
+                        <li class="mb-2"><i class="fas fa-clock me-2 text-gold"></i> Mon - Sat: 9:00 AM - 7:00 PM</li>
+                    </ul>
                 </div>
             </div>
             <hr class="mt-5 mb-4 border-secondary opacity-25">
-            <p class="text-center text-secondary small mb-0">&copy; 2024 Salon Riyora. All rights reserved.</p>
+            <p class="text-center text-dark small mb-0">&copy; 2026 Salon Riyora. All rights reserved.</p>
         </div>
     </footer>
 
